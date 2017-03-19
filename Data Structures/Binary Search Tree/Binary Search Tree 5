@@ -1,0 +1,75 @@
+class node:
+
+    # Create the initial properties of the node
+    def __init__(self, key, value, left=None, right=None, parent=None):
+        self.key = key
+        self.value = value
+        self.left = left
+        self.right = right
+        self.parent = parent
+
+    def isLeaf(self):
+        return (not self.left and not self.right)
+
+    def isRoot(self):
+        return not self.parent
+
+    def isLeft(self):
+        return self.parent.left == self
+
+    def isRight(self):
+        return self.parent.right == self
+
+    def hasBoth(self):
+        return self.left and self.right
+
+    def hasOne(self):
+        return (self.left and not self.right) or (not self.left and self.right)
+
+    def hasLeft(self):
+        return self.left
+
+    def hasRight(self):
+        return self.right
+
+    def replace(self, key, value, lc, rc):
+        self.key = key
+        self.value = value
+        self.left = lc
+        self.right = rc
+
+        if self.isLeft():
+            self.parent.left = self
+        if self.isRight():
+            self.parent.right = self
+        if self.hasLeft():
+            self.left.parent = self
+        if self.hasRight():
+            self.right.parent = self
+
+    # Create a function to find it's successor
+    def findSuccessor(self):
+
+        # Initialize a successor node
+        succ = None
+        if self.hasRight():
+            succ = self.right.findMin()
+
+        # Function is called if the node does not have a right child:
+        elif self.hasLeft():
+            succ = self.left()
+
+
+    # Create a function to find the min
+    def findMin(self):
+
+        while self.hasLeft():
+            self.left.findMin()
+        return self
+
+
+# Deleting Node cases:
+# Node has no children
+# Node has one left child
+# Node has one right child
+# Node has both children

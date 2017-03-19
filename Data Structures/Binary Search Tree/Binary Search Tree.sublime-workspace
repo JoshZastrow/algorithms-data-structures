@@ -1,0 +1,276 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has",
+				"hasLeft"
+			],
+			[
+				"left",
+				"left\tstatement"
+			],
+			[
+				"quickso",
+				"quickSort1"
+			],
+			[
+				"qui",
+				"quickSort\tfunction"
+			],
+			[
+				"re",
+				"replaceNode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 343.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 648.0
+	},
+	"console":
+	{
+		"height": 288.0,
+		"history":
+		[
+			"print('hello world')",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 50076))",
+			"sys.path",
+			"sys.__path__",
+			"import numpy",
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect((\"localhost\", 59552))",
+			"sys.version",
+			"print(sys.version)",
+			"import numpy as np",
+			"python.__path__",
+			"__path__",
+			"import sys",
+			"which python",
+			"Python",
+			"which Python",
+			"clear()",
+			"clear = lambda: os.system('cls')",
+			"import os",
+			"cls",
+			"clear",
+			"clc",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Code/Data Structures/Binary Search Tree/Binary Search Tree 1.py",
+		"/C/Code/Data Structures/Binary Search Tree/Binary Search Tree 2.py",
+		"/C/Code/Data Structures/Binary Search Tree/Binary Search Tree 4.py",
+		"/C/Code/Sorting/Quicksort 1",
+		"/C/Code/Sorting/QuickSort 3.py",
+		"/C/Users/joshu/AppData/Roaming/Sublime Text 3/Packages/User/AutoPep8.sublime-settings",
+		"/C/Users/joshu/AppData/Roaming/Sublime Text 3/Packages/AutoPEP8/AutoPep8.sublime-settings",
+		"/C/Users/joshu/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Code/Sorting/Quicksort 2.py",
+		"/C/Code/Searching/Binary Search 1.py",
+		"/C/Users/joshu/Documents/Sterling Machine/SSRS/POForm/POHeader Query",
+		"/C/Users/joshu/Documents/Sterling Machine/SSRS/POForm/POHeader SMCForm Query.sql",
+		"/C/Users/joshu/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Code/Testing/Unit Tests/Unit Test - practice 1",
+		"/C/Code/Data Structures/Binary Search Tree/Binary Search Tree 4",
+		"/C/Users/joshu/AppData/Roaming/Sublime Text 3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"replaceNodeData",
+			"Replace",
+			"rightchild",
+			"leftchild",
+			"payload",
+			"currentNode",
+			"self",
+			"\" + Parameters!TableGuid.Value + \"",
+			"Test Cases",
+			"\" + Parameters!TableGuid.Value + \"",
+			"dbo.TESTREPORTS",
+			"\" + Parameters!TableGuid.Value + \"",
+			"\" + Parameters!TablueGuid.Value + \"",
+			" @Guid",
+			"+ \" ",
+			"+ \"",
+			"\" +",
+			"GUID",
+			"Parameters!TableGuid.Value"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"replace",
+			"right",
+			"left",
+			"value",
+			"current",
+			"604f4615dd9d41f2b5af925c345fe5fb",
+			"Result",
+			"a5ed0d6be9354ea89ccc15a01acb67da",
+			"8467d18075344d7888da34849cf04aba",
+			"TESTREPORTS.dbo",
+			"2134e3401ec64d04b2197bc790b1838e",
+			"a626d1c6d7894b59b80d38e94669e0ae",
+			"",
+			"@GUID",
+			"GUID"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 185.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Binary Search Tree 1.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Code\\Sorting\\Quicksort 1"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
